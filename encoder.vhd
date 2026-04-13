@@ -21,7 +21,6 @@ architecture ARQ of encoder is
     constant C1 : unsigned(7 downto 0) := "00011010"; -- C(1) = P(0)
 begin
     process(clk, rst)
-        -- variable of 16 bits to save the results.
         variable v_range_ext : unsigned(15 downto 0);
         variable v_low_ext   : unsigned(15 downto 0);
     begin
